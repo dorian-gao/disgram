@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T02:37:59.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.4" etag="IH5xo0DsUodb6RzSRsg4" type="github"><diagram id="SqZR1g-1R362SlSz8QOO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-15T02:43:45.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="seIxD27gcILDvNN1mGI_" version="14.5.4" type="github">
+  <diagram id="SqZR1g-1R362SlSz8QOO" name="Page-1">
+    <mxGraphModel dx="950" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kVJt9aU4SYye6B8Gh06k-2" target="kVJt9aU4SYye6B8Gh06k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-2" value="进入参数设置页面，点击解锁按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kVJt9aU4SYye6B8Gh06k-3" target="kVJt9aU4SYye6B8Gh06k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-3" value="人脸识别" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kVJt9aU4SYye6B8Gh06k-5" target="kVJt9aU4SYye6B8Gh06k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-5" value="&lt;span&gt;改变标志位，开始读取人脸识别结果标识位&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-9" value="读取正确，参数设备修改功能开放，否则提示解锁失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kVJt9aU4SYye6B8Gh06k-11" target="kVJt9aU4SYye6B8Gh06k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVJt9aU4SYye6B8Gh06k-11" value="tray盘柜软件和大华软件都要打开，大华软件要重写代码，修改人脸识别成功触发事件，来读写ini文件内标志位的修改和传递" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="-90" width="165" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
