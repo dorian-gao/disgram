@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T08:41:57.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="kVSgeNwBcvfh6-SYrqDY" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T00:57:25.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="PnmwJaDOfGWyGvwxw7-V" version="14.6.6" type="github">
   <diagram id="HVDBgb3V3ityeV_7GJ8U" name="Page-1">
-    <mxGraphModel dx="547" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,11 +13,17 @@
         <mxCell id="7Gs3EV5V84FpdkvsSOvO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7Gs3EV5V84FpdkvsSOvO-4" target="7Gs3EV5V84FpdkvsSOvO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Gs3EV5V84FpdkvsSOvO-4" value="&lt;div&gt;&lt;span&gt;初始化，&lt;/span&gt;&lt;/div&gt;打开服务器，监听相机的TCP连接&lt;br&gt;建立与PLC的TCP的连接" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+        <mxCell id="7Gs3EV5V84FpdkvsSOvO-4" value="&lt;div&gt;&lt;span&gt;初始化，&lt;/span&gt;&lt;/div&gt;建立与相机的连接&lt;br&gt;建立与PLC的连接" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="93" y="133" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7Gs3EV5V84FpdkvsSOvO-6" value="" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="93" y="233" width="120" height="60" as="geometry" />
+        <mxCell id="snrmJ7P6Qt6-EO8KMOfe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Gs3EV5V84FpdkvsSOvO-6" target="snrmJ7P6Qt6-EO8KMOfe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Gs3EV5V84FpdkvsSOvO-6" value="监听客户端和服务端的状态，连接显示绿灯，断线灯不亮，连接中断会报警，二者不在线无法开启检测，并在界面上提示" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="93" y="233" width="117" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="snrmJ7P6Qt6-EO8KMOfe-1" value="开始检测，PLC控制视觉移动拍照处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="91.5" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
