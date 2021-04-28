@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:20:17.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="j0vo5tHWAXgLPuavtw0a" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:22:24.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="371lcKIZoKmLgTEcAabs" version="14.6.6" type="github">
   <diagram id="HVDBgb3V3ityeV_7GJ8U" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="7Gs3EV5V84FpdkvsSOvO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7Gs3EV5V84FpdkvsSOvO-4" target="7Gs3EV5V84FpdkvsSOvO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Gs3EV5V84FpdkvsSOvO-4" value="&lt;div&gt;&lt;span&gt;初始化，&lt;/span&gt;&lt;/div&gt;建立与相机的连接&lt;br&gt;建立与PLC的连接" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+        <mxCell id="7Gs3EV5V84FpdkvsSOvO-4" value="&lt;div&gt;&lt;span&gt;初始化，&lt;/span&gt;&lt;/div&gt;建立与相机的连接&lt;br&gt;建立与PLC的连接" style="whiteSpace=wrap;html=1;rounded=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="93" y="160" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="snrmJ7P6Qt6-EO8KMOfe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="V2lg7256A7GGNOkupIs2-11" target="snrmJ7P6Qt6-EO8KMOfe-1" edge="1">
