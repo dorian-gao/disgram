@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:09:10.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2MPobx47k1rs7I-xKJaV" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:10:43.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3m7b8XP0Ef4ehhEO5W6a" version="14.6.13" type="github">
   <diagram id="HVDBgb3V3ityeV_7GJ8U" name="Page-1">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,25 +23,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="snrmJ7P6Qt6-EO8KMOfe-1" value="开始检测，PLC控制视觉移动拍照处理" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="47.06" width="120" height="55.87" as="geometry" />
+          <mxGeometry x="660" y="47.06" width="120" height="55.87" as="geometry" />
         </mxCell>
         <mxCell id="V2lg7256A7GGNOkupIs2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V2lg7256A7GGNOkupIs2-1" target="V2lg7256A7GGNOkupIs2-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V2lg7256A7GGNOkupIs2-1" value="如果视觉检测到缺陷，给软件发送01，此时给PLC发送停止信号，记录log，" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="170" width="138.5" height="80" as="geometry" />
+          <mxGeometry x="550" y="160" width="138.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Rtg-yavEwKPCSxZ9PlsL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2lg7256A7GGNOkupIs2-3" target="V2lg7256A7GGNOkupIs2-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V2lg7256A7GGNOkupIs2-3" value="如果视觉检测未检测到缺陷，检测结束，视觉发送00，记录log" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="780" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V2lg7256A7GGNOkupIs2-5" value="界面显示刮刀无有缺陷，点击确认后可继续检测，" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="449.25" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="559.25" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2lg7256A7GGNOkupIs2-9" value="界面显示刮刀无缺陷，点击确认后可继续检测" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Rtg-yavEwKPCSxZ9PlsL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2lg7256A7GGNOkupIs2-11" target="Rtg-yavEwKPCSxZ9PlsL-2">
           <mxGeometry relative="1" as="geometry" />
@@ -64,8 +64,14 @@
         <mxCell id="Rtg-yavEwKPCSxZ9PlsL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rtg-yavEwKPCSxZ9PlsL-9" target="snrmJ7P6Qt6-EO8KMOfe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Rtg-yavEwKPCSxZ9PlsL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rtg-yavEwKPCSxZ9PlsL-9" target="Rtg-yavEwKPCSxZ9PlsL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rtg-yavEwKPCSxZ9PlsL-9" value="按下按钮" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="46.25" width="120" height="57.5" as="geometry" />
+          <mxGeometry x="390" y="46.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtg-yavEwKPCSxZ9PlsL-15" value="收到PLC发来的消息，知道检测已经开始" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
